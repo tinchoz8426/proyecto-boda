@@ -1,0 +1,231 @@
+/* Fuentes utilizadas
+font-family: 'Dancing Script', cursive;
+font-family: 'Oswald', sans-serif;
+*/
+
+/* HTML Scroll */
+html{
+    scroll-behavior: smooth;
+}
+/* HTML Scroll */
+
+/* NAVBAR */
+.navbar-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.logo-container{
+    padding-left: 4rem;
+}
+.logo{
+    font-family: 'Dancing Script', cursive;
+    text-transform: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.list-navbar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding: 0 4rem 0 0;
+}
+.list-navbar li{
+    padding: 0 1rem;
+}
+.list-navbar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.list-navbar a:hover{
+    text-decoration: underline 2px;
+
+}
+/* NAVBAR */
+
+/* HEADER */
+.header{
+    background-image: url("../assets/images/banner-image.webp");
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-container{
+    background-color: #2728c438;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-text h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: #fff;
+}
+.header-text h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #fff;
+}
+.header-text h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #fff;
+}
+/* HEADER */
+
+/* COUPLE */
+.couple-area{
+    margin-top: 10rem;
+}
+.couple-section-title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 0;
+}
+.couple-container{
+    margin: 0 4rem;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+.couple-image{
+    padding: 0 3rem;
+}
+.couple-image img{
+    width: 20rem;
+    border-radius: 10px;
+}
+.couple-paragraph-container{
+    padding: 0 2rem;
+}
+.couple-paragraph{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+/* COUPLE */
+
+/* WEDDING */
+.wedding-area{
+    margin-top: 10rem;
+}
+.wedding-section-title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 0;
+}
+.wedding-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.wedding-image-text{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.wedding-image-text img{
+    width: 15rem;
+    border-radius: 10px;
+}
+.wedding-image-text h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 1rem 0 1rem 0;
+}
+.wedding-image-text p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 2rem;
+}
+/* WEDDING */
+
+/* RSVP */
+.rsvp-area{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.rsvp-section-title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+.rsvp-content{
+    display: flex;
+    flex-direction: column;
+}
+.rsvp-icon{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+.rsvp-text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+.rsvp-button{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    transition: ease-in-out 0.2s;
+}
+.rsvp-button:hover{
+    transform: scale(1.02);
+    background-color: rgba(0, 0, 0, 0.61);
+}
+/* RSVP */
+
+/* FOOTER */
+address{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem;
+}
